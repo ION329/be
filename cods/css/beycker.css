@@ -1,0 +1,46 @@
+.m0{
+	margin: 0;
+}
+
+.areaImg1{
+	background-image: url(../../resources/img/demo/proj3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.areaImg1 > .col-xs-12,
+.areaImg1 > .col-sm-12 {
+	background-color: rgba(112, 189, 172, 0.6);
+	height: inherit;
+}
+
+.dIB{
+	display: inline-block;
+}
+
+.enlace-bykr{
+	position: absolute; 
+	bottom: -15px;
+	left: 30%;
+}
+
+.h-bykr{
+	height: 300px;
+}
+
+@media screen and (min-width: 651px) and (max-width: 770px){
+	.h-bykr{
+		height: 270px;
+	}
+}
+
+@media screen and(max-width: 650px){
+	.h-bykr{
+		height: 300px;
+	}
+}
+
+.optM-4								{ background-image:url(../../resources/img/icons/menOpt4.png); background-position:left center; background-repeat:no-repeat; }
+.optM-5								{ background-image:url(../../resources/img/icons/menOpt5.png); background-position:left center; background-repeat:no-repeat; }
+.optM-6								{ background-image:url(../../resources/img/icons/menOpt6.png); background-position:left center; background-repeat:no-repeat; }

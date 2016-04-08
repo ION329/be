@@ -1,0 +1,9 @@
+<div ng-include src=" 'view/general/headerEmpresas.php' "></div>
+<div ng-include src=" 'view/general/slideFull.php' "></div>
+<div ng-include src=" 'view/empresas/home/datos.php' "></div>
+<div ng-include src=" 'view/empresas/home/areas.php' "></div>
+<div ng-include src=" 'view/empresas/home/experiencia.php' "></div>
+<div ng-include src=" 'view/empresas/home/campamentos.php' "></div>
+<div ng-include src=" 'view/empresas/home/ideas.php' "></div>
+<div ng-include src=" 'view/general/proyecta.php' "></div>
+<div ng-include src=" 'view/general/footer.php' "></div>

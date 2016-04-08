@@ -1,0 +1,21 @@
+RewriteEngine on
+
+
+
+RewriteRule old/usuarios/(.*).html$ old/usuarios/index.php?tipo=$1
+
+RewriteRule old/ventas/(.*).html$ old/ventas/index.php?tipo=$1
+
+
+
+
+
+
+
+
+
+
+
+#para mostrar mensajes o paginas en un error 404,500,403
+
+#ErrorDocument 404 http://darcolombia.com
